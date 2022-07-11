@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Joshita Atmakuri/AndroidStudioProjects/Mem_card/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Joshita Atmakuri/AndroidStudioProjects/Mem_card/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Joshita Atmakuri/AndroidStudioProjects/Mem_card/app/src/main/res/layout/activity_main_test.xml" value="0.1796875" />
+        <entry key="..\:/Users/Joshita Atmakuri/AndroidStudioProjects/Mem_card/app/src/main/res/layout/activity_single_player.xml" value="0.165625" />
+        <entry key="..\:/Users/Joshita Atmakuri/AndroidStudioProjects/Mem_card/app/src/main/res/layout/activity_start.xml" value="0.1640625" />
         <entry key="..\:/Users/Joshita Atmakuri/AndroidStudioProjects/Mem_card/app/src/main/res/layout/images.xml" value="0.1" />
       </map>
     </option>

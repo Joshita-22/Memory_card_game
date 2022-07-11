@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9FC2EC"
-    android:paddingLeft="16dp"
-    android:paddingTop="16dp"
-    android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#9FC2EC"
+    tools:context=".MainActivity2">
 
 
     <include
         layout="@layout/images"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/tv_p1"
@@ -30,14 +30,5 @@
         android:textColor="#000000"
         android:textSize="32dp" />
 
-    <TextView
-        android:id="@+id/tv_p2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:text="P2: 0"
-        android:textColor="#000000"
-        android:textSize="32dp" />
+
 </RelativeLayout>
