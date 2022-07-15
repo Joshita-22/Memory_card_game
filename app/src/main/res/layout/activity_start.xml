@@ -5,35 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="#9FC2EC"
+    android:background="#B89396"
     tools:context=".StartActivity">
 
     <Button
         android:id="@+id/multi_player"
         android:layout_width="201dp"
         android:layout_height="61dp"
-        android:background="#1C203C"
-        android:textColor="@color/white"
+        android:background="#420324"
         android:text="Multi Player"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.738" />
 
     <Button
         android:id="@+id/single_player"
         android:layout_width="201dp"
         android:layout_height="61dp"
-        android:background="#1C203C"
+        android:background="#420324"
         android:text="Single Player"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432" />
+        app:layout_constraintVertical_bias="0.595" />
 
     <TextView
         android:id="@+id/textView"
@@ -42,7 +41,7 @@
         android:text="MEMORY CARD GAME!!"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="#152651"
+        android:textColor="#420324"
         android:textSize="27sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,4 +49,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.103" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="228dp"
+        android:layout_height="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276"
+        app:srcCompat="@drawable/mem_logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -357,7 +357,7 @@ public class MainActivity extends AppCompatActivity {
 
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
                 alertDialogBuilder
-                        .setMessage("Game Over!!\nP1 " + playerPoints + "\nP2 : " + cpuPoints)
+                        .setMessage("Game Over!!\nP1 : " + playerPoints + "\nP2 : " + cpuPoints)
                         .setCancelable(false)
                         .setPositiveButton("NEW", new DialogInterface.OnClickListener() {
                             @Override
